@@ -1,0 +1,197 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/* style.scss */
+$blueish: #286989;
+$greenflow: #1FE5C4;
+$mintflow: #B8E5C4;
+$rosaranja: #FF7372;
+$orangeflow: #FF4F45;
+$mustardflow: #F0CC47;
+$lightgray: #E6E6E6;
+$lightestgray: #F2F2F2;
+
+#commingsoon {
+	color: gray;
+	text-align: center;
+	font-size: 32px;
+	margin: 120px 80px 0px 80px;
+	padding: 150px 20px 0px 20px;
+}
+#mainbanner {
+	/*box-shadow: 0px 0px 15px 0px $blueish;*/
+	color: gray;
+	text-align: center;
+	font-size: 36px;
+	margin: 0px 0px 0px 0px;
+	padding: 150px 0px 0px 0px;
+	/* background: $mintflow; /* Old browsers */
+	/*background: -moz-linear-gradient(top,  $mintflow 0%, $greenflow 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$mintflow), color-stop(100%,$greenflow)); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top,  $mintflow 0%,$greenflow 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top,  $mintflow 0%,$greenflow 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top,  $mintflow 0%,$greenflow 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom,  $mintflow 0%,$greenflow 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mintflow', endColorstr='$greenflow',GradientType=0 ); /* IE6-9 */
+}
+
+.subtledots
+{
+	background-image: url('subtle_dots.png');
+}
+
+#flowbg{
+	background-image:url('linesbackground.png');
+	width: 100%;
+	height: 620px;
+}
+
+#makersday
+{
+	font-family:Garamond, Georgia, serif;
+	font-size: 52px;
+	color: gray;
+	margin-top: 82px;
+	margin-bottom: 0px;
+}
+
+#que{
+	margin: 50px 0px 100px 0px;
+	padding: 100px 0px 100px 0px;
+}
+
+#porque {
+	background: $blueish; /* Old browsers */
+	/*background: -moz-linear-gradient(top,  $mustardflow 0%, $orangeflow 100%); /* FF3.6+ */
+	/*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$mustardflow), color-stop(100%,$orangeflow)); /* Chrome,Safari4+ */
+	/*background: -webkit-linear-gradient(top,  $mustardflow 0%,$orangeflow 100%); /* Chrome10+,Safari5.1+ */
+	/*background: -o-linear-gradient(top,  $mustardflow 0%,$orangeflow 100%); /* Opera 11.10+ */
+	/*background: -ms-linear-gradient(top,  $mustardflow 0%,$orangeflow 100%); /* IE10+ */
+	/*background: linear-gradient(to bottom,  $mustardflow 0%,$orangeflow 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$mustardflow', endColorstr='$orangeflow',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	text-align: center;
+	font-size: 24px;
+	box-shadow: 0px 0px 5px 0px #666;
+	padding: 50px 0px 50px;
+	text-shadow:1px 1px #666;
+}
+
+#actividades{
+	margin: 0px 0px 0px 0px;
+	padding: 200px 0px 200px 0px;
+}
+
+#como {
+	margin: 0px 0px 0px 0px;
+	padding: 100px 0px 200px 0px;
+}
+
+#talleres {
+	background: $rosaranja;
+	color: #fff;
+	box-shadow: 15px 0px 15px 0px #888888;
+	margin: 0px 0px 0px 0px;
+	padding: 200px 0px 200px 0px;
+}
+
+#info {
+	background: #333;
+	color: #fff;
+	margin: 0px 0px 0px 0px;
+	padding: 200px 0px 200px 0px;
+}
+
+#ejemplos{
+	color: #fff;
+	background: $greenflow;
+	text-align: center;
+	padding: 200px;
+	margin: 0px 0px 50px 0px;
+	box-shadow: 0px 0px 15px 0px #888888;
+}
+
+.title
+{
+	text-align: center;
+}
+
+.garamond
+{
+	font-family:Garamond, Georgia, serif;
+}
+
+#blueish
+{color: $blueish
+}
+
+.bigtypo
+{
+	font-size: 52px;
+}
+
+.square
+{
+	margin: 1px;
+	padding: 1px;
+	border:2px solid white;
+}
+
+/*font-family: DecimaMono-Light, Helvetica, Arial, sans-serif;*/
+.armata
+{
+	font-family: 'Armata', sans-serif;
+}
+
+.itinerario
+{
+	background: $lightestgray;
+	margin: 1px;
+	padding: 12px;
+	border:2px solid $lightgray;
+}
+
+.itinerario2
+{
+	background: #fff;
+	margin: 1px;
+	padding: 12px;
+	border:2px solid $lightgray;
+}
+
+
+/* The slider of Lentes */
+
+
+.show {
+	opacity: 1 !important;
+}
+
+.hide {
+	opacity: 0 !important;
+}
+
+a.rosaranja{
+	color: $rosaranja;
+}
+
+a.blueish{
+	color: $blueish;
+}
+
+.funkabutton a, button{
+	background: $greenflow;
+	color: white;
+	font-size: 24px;
+	padding: 32px;
+	margin: 20px;
+	text-decoration: none;
+	border-radius: 3px;
+  &:hover{
+    background: $blueish;
+    transition: .4s;
+    text-decoration: none;
+  }
+}
